@@ -3,7 +3,7 @@
  * MCU ATmega88PA
  *
  * Created: 18.04.2024 Version 2.0
- * Author : Rolli & KLaus from microkontroller.net
+ * Author : Rolli & Klaus from microkontroller.net
  * Project: PowerSupply PPS5330 hardware hack
  * with temperature display and fast voltage rate
  * https://www.mikrocontroller.net/topic/499101?page=1
