@@ -19,7 +19,7 @@ Reverse Engineered Firmware for the ELV PPS5330 Power Supply and hardware modifi
 
 Temperature display: Long time is heatsink, short time is transformer.
 
-Video: https://www.youtube.com/watch?v=SqReOx2EAOY&t=26s
+Video: https://youtu.be/KPteA9frJQY
 
 # Hardware modification
 In the ELV PPS5330 power supply, the setpoint specification for voltage and current is implemented by the Atmega MCU with PWM signals. The PWM signals I-Soll and I-Soll are converted into a proportional DC voltage via a low-pass filter R43/C27 and R53/C34. The problem in the power supply is the low PWM frequency of 488Hz and the low pass filter. A rapid increase in current and voltage after a standby is therefore not possible. When activating the output, the power supply needs 1.4 seconds until the voltage is fully present at the output.
