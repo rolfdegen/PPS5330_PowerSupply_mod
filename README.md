@@ -29,10 +29,11 @@ Output voltage rise rate
 Output voltage rise rate after modification
 ![Bild_2](https://github.com/rolfdegen/PPS5330_PowerSupply_mod/assets/16689445/7543e44e-1874-4d4a-b0e7-1bc3348c964e)
 
-Modification circuit. The PWM signal for I-Soll and U-Soll at R43/R53 is now constantly present and is no longer switched off by standby. A CMOS switch IC1 switches off the rectified PWM voltage on the regulator input IC4/B pin 5 and IC4/C pin 10. The CMOS switch IC 1 receives its control signal from the inverted standby signal. The advantage of this circuit is that there is no time required for the rectification of the PWM signal. Influence more on the voltage rise rate at the output has.  After the hardware modification, the voltage rise rate is < 50msec (Pic).
+Modification circuit. The PWM signal for I-Soll and U-Soll at R43/R53 is now constantly present in the new firmware and is no longer switched off by standby. A CMOS switch IC1 switches off the rectified PWM voltage on the regulator input IC4/B pin 5 and IC4/C pin 10. The CMOS switch IC 1 receives its control signal from the inverted standby signal. The advantage of this circuit is that there is no time required for the rectification of the PWM signal. Influence more on the voltage rise rate at the output has.  After the hardware modification, the voltage rise rate is < 50msec (Pic).
 
 Modification circuit
 ![Screenshot 2024-04-19 225535](https://github.com/rolfdegen/PPS5330_PowerSupply_mod/assets/16689445/c07e47ff-2ca1-4e27-b3c3-4703c8ddaa33)
+
 ![Screenshot 2024-04-19 230514](https://github.com/rolfdegen/PPS5330_PowerSupply_mod/assets/16689445/52f20a49-0b4a-4445-8b75-58de71420227)
 
 
