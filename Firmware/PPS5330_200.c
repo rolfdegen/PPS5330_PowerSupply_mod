@@ -2,8 +2,8 @@
  * Labornetzteil ELV PPS 5330 hack
  * MCU ATmega88PA
  *
- * Created: 18.04.2024 Version 2.0
- * Author : Rolli & Klaus from microkontroller.net
+ * Created: 20.04.2024 Version 2.001
+ * Author : Rolli & KLaus from microkontroller.net
  * Project: PowerSupply PPS5330 hardware hack
  * with temperature display and fast voltage rate
  * https://www.mikrocontroller.net/topic/499101?page=1
@@ -24,7 +24,7 @@
 
 // version info
 #define VERSION 200
-#define BUILD     0
+#define BUILD     1
 
 #define TRUE    1
 #define FALSE   0
@@ -683,7 +683,8 @@ void print_I_result(uint16_t meas_time)
     }
     I_meas = ( (int32_t) ( (int32_t)meas_time - meas_counts_offset_0mA) * 1200 + meas_counts_per_1200mA/2)  / meas_counts_per_1200mA;
 	
-	I_meas = I_meas - ((Ulimit * 0.025f) / 2200);
+	//I_meas = I_meas - ((Ulimit * 0.025f) / 2200);
+	I_meas = I_meas - (U_meas / 2200);
 	if (I_meas <= 0)
 	{
 		I_meas = 0;
