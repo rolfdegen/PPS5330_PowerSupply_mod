@@ -24,7 +24,7 @@ Video: https://youtu.be/KPteA9frJQY
 # Hardware modification
 In the ELV PPS5330 power supply, the setpoint specification for voltage and current is implemented by the Atmega MCU with PWM signals. The PWM signals I-Soll and I-Soll are converted into a proportional DC voltage via a low-pass filter R43/C27 and R53/C34. The problem in the power supply is the low PWM frequency of 488Hz and the low pass filter. A rapid increase in current and voltage after a standby is therefore not possible. When activating the output, the power supply needs 1.4 seconds until the voltage is fully present at the output.
 
-Output voltage rise rate
+Output voltage rise rate befor modification
 ![Bild_1](https://github.com/rolfdegen/PPS5330_PowerSupply_mod/assets/16689445/4eb7f483-c800-4026-afd7-3867d3b0ba49)
 
 Output voltage rise rate after modification
