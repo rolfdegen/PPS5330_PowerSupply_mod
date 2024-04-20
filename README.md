@@ -1,4 +1,4 @@
-# PPS5330_PowerSupply_mod
+# PPS5330 power supply modification
 Reverse Engineered Firmware for the ELV PPS5330 Power Supply and hardware modification for faster output voltage slew rate
 
 ![20240418_200517](https://github.com/rolfdegen/PPS5330_PowerSupply_mod/assets/16689445/1e9c6e01-77a0-45ae-b5b4-699f695727ae)
