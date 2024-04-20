@@ -681,18 +681,17 @@ void print_I_result(uint16_t meas_time)
         I_meas = 0;
         return;
     }
+	
     I_meas = ( (int32_t) ( (int32_t)meas_time - meas_counts_offset_0mA) * 1200 + meas_counts_per_1200mA/2)  / meas_counts_per_1200mA;
 	
-	//I_meas = I_meas - ((Ulimit * 0.025f) / 2200);
-	I_meas = I_meas - (U_meas / 2200);
+	I_meas = I_meas - (U_meas * 0.0001f); // - current offset if 0.000A
+	
 	if (I_meas <= 0)
 	{
 		I_meas = 0;
 	}
 	
-	
 	print_value(I_act_cmd, I_meas);
-
     print_P_calculation();
 }
 
