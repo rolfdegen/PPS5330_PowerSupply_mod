@@ -12,7 +12,7 @@ Reverse Engineered Firmware for the ELV PPS5330 Power Supply and hardware modifi
 * Voltage Calibration
 * Current Calibration
 * faster output voltage slew rate
-* Measure transformer temperature
+* Measure transformer and heatsink temperature
 * Menu with LCD contrast/backlit settings
 * Calibration of internal ADC measurements
 * Timeout for Display-Settings-Menu
