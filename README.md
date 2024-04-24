@@ -17,6 +17,8 @@ Reverse Engineered Firmware for the ELV PPS5330 Power Supply and hardware modifi
 * Calibration of internal ADC measurements
 * Timeout for Display-Settings-Menu
 
+  
+
 Temperature display: Long time is heatsink, short time is transformer.
 ![Temp](https://github.com/rolfdegen/PPS5330_PowerSupply_mod/assets/16689445/23ada2cd-61c3-4210-89a0-fdd1f8a84e61)
 
