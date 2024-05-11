@@ -41,7 +41,7 @@ Modification circuit
 
 ![PPS5330_mod](https://github.com/rolfdegen/PPS5330_PowerSupply_mod/assets/16689445/051a66bd-3bd4-4024-b1c8-46a196f6b76e)
 
-
+Project blog: https://www.mikrocontroller.net/topic/499101?page=single#6318916
 
 
 
