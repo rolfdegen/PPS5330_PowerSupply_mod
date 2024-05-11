@@ -39,7 +39,8 @@ Modification circuit. The PWM signal for I-Soll and U-Soll at R43/R53 is now con
 Modification circuit
 ![Screenshot 2024-04-19 225535](https://github.com/rolfdegen/PPS5330_PowerSupply_mod/assets/16689445/c07e47ff-2ca1-4e27-b3c3-4703c8ddaa33)
 
-![Screenshot 2024-04-19 230514](https://github.com/rolfdegen/PPS5330_PowerSupply_mod/assets/16689445/52f20a49-0b4a-4445-8b75-58de71420227)
+![Screenshot_2024-04-19_230514](https://github.com/rolfdegen/PPS5330_PowerSupply_mod/assets/16689445/107e3c0c-955a-4d04-b703-5349479ba8bb)
+
 
 
 
